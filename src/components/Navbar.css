@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0 1rem;
+    background-color: rgb(208, 206, 206);
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+}
+.navlinks > *{
+    list-style: none;
+    padding:2rem 2rem;
+}

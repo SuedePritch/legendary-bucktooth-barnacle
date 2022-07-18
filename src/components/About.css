@@ -1,0 +1,15 @@
+
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.about > p{
+    margin-left: 5rem;
+    max-width: 65ch;
+    font-size: 1.75em;
+    line-height: 2.6rem;
+}
+.about > img{
+    height:85vh;
+}

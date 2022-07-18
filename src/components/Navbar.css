@@ -1,9 +1,9 @@
 .navlinks{
     display: flex;
     flex-direction: row;
-    border:5px solid black;
 }
 .navlinks > *{
     list-style: none;
-    padding:2rem 2rem;
+    padding:0 2rem;
+    font-size: 18px;
 }

@@ -2,11 +2,12 @@ import React from 'react'
 import './Header.css'
 import Navbar from './Navbar'
 
-function Header() {
+function Header(props){
+
     return (
         <div className='header'>
             <h1>James Pritchard</h1>
-            <Navbar></Navbar>
+            <Navbar state={props.state}></Navbar>
         </div>
     )
 }

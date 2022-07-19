@@ -1,20 +1,16 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './components/About';
-import Project from './components/Project';
+import Content from './components/Content'
+import { useState } from 'react';
 
 function App() {
+  const [page ,setPage] = useState('Home')
   return (
     <div className="App">
-      <Header />
-        <Router>
-          <Routes>
-              <Route path="/" element={<About />}></Route>
-              <Route path="/project" element={<Project />}></Route>
-          </Routes>
-        </Router>
+      <Header state={{page, setPage}}/>
+      <Content state={{page, setPage}} />
       <Footer/>
     </div>
   );

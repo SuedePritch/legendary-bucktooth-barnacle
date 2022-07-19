@@ -1,12 +1,15 @@
 import React from 'react';
 import './Navbar.css';
 
-function Navbar() {
+function Navbar(props) {
+    console.log(props.state.page);
+    
     return (
     <div className='navbar'>
         <div className="navlinks">
-            <a href="/">Home</a>
-            <a href="/project">Project</a>
+            <button onClick={() => props.state.setPage("Home")}>Home</button>
+            <button onClick={() => props.state.setPage("Project")}>Project</button>
+            
         </div>
     </div>
     )

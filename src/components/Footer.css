@@ -1,18 +1,27 @@
 .footer{
-    position:relative;
+    position:absolute;
     bottom:0;
-    height:10vh;
+}
+.contact-icons{
+    padding: 1rem;
     display: flex;
     justify-content: center;
+    width:100vw;
 }
-.contact-icons > img{
-    margin:1rem;
-    padding:1rem;
-    height:8vw;
-    width:8vh;
-    border:5px solid black;
+.contact-icons > svg{
+    margin:0 1rem;
+    padding:1.25rem;
+    height:80px;
+    width:80px;
+    border:3px solid black;
     border-radius: 5px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: var(--clr-accent-500);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: var(--clr-accent-500);
+    fill: black;
+    
+}
+svg:hover{
+    fill: white;
+    background: var(--clr-primary-400);
 }

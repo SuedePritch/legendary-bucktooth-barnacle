@@ -1,7 +1,21 @@
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height:10vh;
-    padding:2rem;
+    align-items: flex-start;
+    height:15vh;
+    background: var(--clr-primary-500);
+}
+.header h1{
+    background: var(--clr-primary-500);
+    padding-left: 4rem;
+    font-size:3.75em;
+    font-family: 'Arizonia', cursive;
+}
+.header h2{
+    position: absolute;
+    top:4.25rem;
+    left:9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    
 }

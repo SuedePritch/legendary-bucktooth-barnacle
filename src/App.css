@@ -1,10 +1,16 @@
+:root{
+  --clr-accent-500:hsl(171, 90%, 40%);
+  --clr-primary-400:hsl(271, 90%, 40%);
+  --clr-primary-600:hsl(271, 90%, 60%);
+  --clr-primary-700:hsl(271, 90%, 70%);
+  --clr-font-500:hsl(0,0%,92%)
+}
 *,
 *::before,
 *::after{
   margin:0;
   padding:0;
   box-sizing: border-box;
-}
-.App{
-  background: hsl(110, 37%, 32%);
+  background: var(--clr-accent-500);
+  
 }

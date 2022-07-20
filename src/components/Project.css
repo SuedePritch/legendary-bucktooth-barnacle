@@ -1,0 +1,40 @@
+.projects{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: left;
+}
+.project:hover{
+    box-shadow: 0 0 15px 1px rgb(0, 0, 0);
+}
+.project{
+    margin:1rem;
+    margin-bottom:7rem;
+    padding:1rem;
+    flex-direction: row;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+
+}
+.bg-image{
+    width:45vw;
+}
+.project-title{
+    font-size: 1.5em;
+}
+.project-description{
+    max-width: 35ch;
+}
+
+@media screen and (max-width:1580px) {
+    .projects{
+        justify-content: center;
+    }
+    
+}

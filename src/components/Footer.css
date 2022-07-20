@@ -1,5 +1,5 @@
 .footer{
-    position:absolute;
+    position:fixed;
     bottom:0;
 }
 .contact-icons{
@@ -8,7 +8,7 @@
     justify-content: center;
     width:100vw;
 }
-.contact-icons > svg{
+svg{
     margin:0 1rem;
     padding:1.25rem;
     height:80px;

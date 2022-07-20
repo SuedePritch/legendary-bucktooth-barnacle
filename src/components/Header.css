@@ -3,9 +3,11 @@
     justify-content: space-between;
     align-items: flex-start;
     height:15vh;
+    width:100vw;
     background: var(--clr-primary-500);
 }
 .header h1{
+    position: relative;
     background: var(--clr-primary-500);
     padding-left: 4rem;
     font-size:3.75em;
@@ -18,4 +20,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     
+}
+@media screen and (max-width:1000px) {
+    .header{
+        margin-top:4rem;
+    }
+    .header h2{
+        top:8rem;
+    }
+
 }

@@ -10,9 +10,9 @@
 }
 svg{
     margin:0 1rem;
-    padding:1.25rem;
-    height:80px;
-    width:80px;
+    padding:0.5rem;
+    height:50px;
+    width:50px;
     border:3px solid black;
     border-radius: 5px;
     border-top-right-radius: 15px;

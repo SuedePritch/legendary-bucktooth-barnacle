@@ -3,7 +3,9 @@ import './Project.css'
 import goldenDevPic from '../images/goldenDev.png'
 import employeeContactPic from '../images/employeeContact.png'
 import weatherPic from '../images/weather.png'
-import jediArchivesPic from '../images/jediarchives.png'
+import jediArchivesPic from '../images/jedi.gif'
+import codeQuizPic from '../images/codeQuiz.png'
+import passwordGeneratorPic from '../images/passwordGenerator.png'
 const projectData = [
     {   
         id:1,
@@ -37,6 +39,22 @@ const projectData = [
         repo: 'https://github.com/SuedePritch/sunshine-rainbows',
         deployed:'https://suedepritch.github.io/sunshine-rainbows/'
     },
+    {
+        id:5,
+        title: 'Code Quiz',
+        image: codeQuizPic,
+        description: 'Technical Code Quiz',
+        repo: 'https://github.com/SuedePritch/urban-invention',
+        deployed:'https://suedepritch.github.io/urban-invention/'
+    },
+    {
+        id:6,
+        title: 'Password Generator',
+        image: passwordGeneratorPic,
+        description: 'Generates Secure Passwords',
+        repo: 'https://github.com/SuedePritch/psychic-lamp',
+        deployed:'https://suedepritch.github.io/psychic-lamp/'
+    },
 ]
 function Project() {
 return (
@@ -49,7 +67,7 @@ return (
                         <span className="project-title">{result.title}</span>
                         <span className="project-description">{result.description}</span>
                         <a href={result.repo} className="project-repo">GitHub</a>
-                        <a href={result.deployed} className="project-repo">Live Site</a>
+                        <a href={result.deployed} className="project-deployed">Live Site</a>
                     </div>
 
                     <img className="bg-image" src={result.image} alt='screenshot of app'></img>

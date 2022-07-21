@@ -22,6 +22,10 @@
     line-height: 2em;
 
 }
+.project-repo,
+.project-deployed{
+    color: black;
+}
 .bg-image{
     width:45vw;
 }

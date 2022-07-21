@@ -15,3 +15,23 @@
   overflow-x: hidden;
   
 }
+
+svg{
+  margin:0 1rem;
+  padding:0.75rem;
+  height:50px;
+  width:50px;
+  border:3px solid black;
+  border-radius: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: var(--clr-accent-500);
+  fill: black;
+  stroke:black;
+  
+}
+svg:hover{
+  fill: white;
+  stroke:white;
+  background: var(--clr-primary-400);
+}

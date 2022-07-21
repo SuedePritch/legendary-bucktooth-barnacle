@@ -8,8 +8,8 @@
 }
 .header h1{
     position: relative;
+    padding:0 2rem;
     background: var(--clr-primary-500);
-    padding-left: 4rem;
     font-size:3.75em;
     font-family: 'Arizonia', cursive;
 }

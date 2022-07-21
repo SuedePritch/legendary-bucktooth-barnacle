@@ -11,29 +11,39 @@
     box-shadow: 0 0 15px 1px rgb(0, 0, 0);
 }
 .project{
+    position: relative;
     margin:1rem;
     margin-bottom:7rem;
     padding:1rem;
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .text{
     display: flex;
     flex-direction: column;
-    line-height: 2em;
-
+    /* line-height: 2em; */
 }
-.project-repo,
-.project-deployed{
-    color: black;
+
+.project-link{
+    position: absolute;
+    right:0;
+}
+.project-link:first-of-type{
+    right:60px;
 }
 .bg-image{
+    display: flex;
+    justify-content: flex-end;
     width:45vw;
 }
 .project-title{
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 .project-description{
-    max-width: 35ch;
+    padding: 1rem 0;
+    text-align: justify;
+    max-width: 80ch;
 }
 
 @media screen and (max-width:1580px) {

@@ -21,9 +21,10 @@ function Navbar(props) {
                     onClick={() => props.state.setPage("Contact")}>
                     Contact
                 </button>
-
-                <button className="navlink">
-                    <a href="./pritchard_resume.docx" alt="Resume" download>Resume</a>
+                <button
+                    className={props.state.page === "Resume" ? 'active' : 'navlink'}
+                    onClick={() => props.state.setPage("Resume")}>
+                    Resume
                 </button>
             
         </div>

@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: row;
     background-color: var(--clr-primary-400);
+    border-left: 7px solid black;
+    border-bottom: 7px solid black;
     border-bottom-left-radius: 5em;
     animation: nav 4s forwards ease;
 }
@@ -53,4 +55,15 @@ button{
         
     }
     
+}
+@media screen and (max-width:1000px) {
+    .navlinks > *{
+        margin-bottom: 0.125rem;
+        padding:0.8rem 1rem;
+        color: var(--clr-font-500);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 900;
+    }
+
 }

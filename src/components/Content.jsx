@@ -3,6 +3,7 @@ import React from 'react'
 import About from './About';
 import Project from './Project';
 import Contact from './Contact';
+import Resume from './Resume'
 
 function Content(props) {
     let currentPage;
@@ -12,6 +13,8 @@ function Content(props) {
         currentPage = <Project/>
     } else if(props.state.page === "Contact"){
         currentPage = <Contact />
+    }else if(props.state.page === "Resume"){
+        currentPage = <Resume />
     }
     return (
     <div>{currentPage}</div>

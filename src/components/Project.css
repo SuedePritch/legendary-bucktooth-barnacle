@@ -13,7 +13,7 @@
 .project{
     position: relative;
     margin:1rem;
-    margin-bottom:7rem;
+    margin-bottom:5rem;
     padding:1rem;
     display: flex;
     justify-content: space-between;
@@ -39,16 +39,37 @@
 }
 .project-title{
     font-size: 2.5em;
+    max-width: 12ch;
 }
 .project-description{
     padding: 1rem 0;
     text-align: justify;
-    max-width: 80ch;
+    width: 45vw;
 }
 
-@media screen and (max-width:1580px) {
+@media screen and (max-width:1260px) {
     .projects{
         justify-content: center;
+    }
+    .project-title{
+        font-size: 1.5em;
+        padding-bottom: 2rem;
+    }
+    .project-description{
+        width:85vw;
+    }
+    .projects svg{
+        margin:2rem 1rem;
+        padding:0.25rem;
+        height:30px;
+        width:30px;
+        border:2px solid black;
+        border-radius: 2px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        }
+    .bg-image{
+        width:85vw;
     }
     
 }

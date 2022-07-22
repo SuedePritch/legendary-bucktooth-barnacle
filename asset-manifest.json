@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/legendary-bucktooth-barnacle/static/css/main.13fd2efc.css",
+    "main.js": "/legendary-bucktooth-barnacle/static/js/main.efc1d080.js",
+    "static/js/787.f37d5abd.chunk.js": "/legendary-bucktooth-barnacle/static/js/787.f37d5abd.chunk.js",
+    "static/media/goldenDev.png": "/legendary-bucktooth-barnacle/static/media/goldenDev.44d54806fb5debc2acf7.png",
+    "static/media/CartoonJames.JPG": "/legendary-bucktooth-barnacle/static/media/CartoonJames.e3f433e0dfc8fbc31ded.JPG",
+    "static/media/codeQuiz.png": "/legendary-bucktooth-barnacle/static/media/codeQuiz.2c6882fe26df6eb93e21.png",
+    "static/media/weather.png": "/legendary-bucktooth-barnacle/static/media/weather.bea47b3147e1b9f150b1.png",
+    "static/media/jedi.gif": "/legendary-bucktooth-barnacle/static/media/jedi.ecdd070772b1bf7c57fd.gif",
+    "static/media/passwordGenerator.png": "/legendary-bucktooth-barnacle/static/media/passwordGenerator.b851cd439e9b82dab8b4.png",
+    "static/media/employeeContact.png": "/legendary-bucktooth-barnacle/static/media/employeeContact.9f4569a082f74147844b.png",
+    "index.html": "/legendary-bucktooth-barnacle/index.html",
+    "main.13fd2efc.css.map": "/legendary-bucktooth-barnacle/static/css/main.13fd2efc.css.map",
+    "main.efc1d080.js.map": "/legendary-bucktooth-barnacle/static/js/main.efc1d080.js.map",
+    "787.f37d5abd.chunk.js.map": "/legendary-bucktooth-barnacle/static/js/787.f37d5abd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13fd2efc.css",
+    "static/js/main.efc1d080.js"
+  ]
+}

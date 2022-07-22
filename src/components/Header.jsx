@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Navbar from './Navbar'
-
+//Header displays name and job descrip and passes the page state through to navbar
 function Header(props){
 
     return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Resume.css'
 
+//resume is a html/jsx version of of the word doc that can also be downloaded
 function Resume() {
     return (
         <div className='resume-container'>

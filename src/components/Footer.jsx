@@ -1,10 +1,7 @@
 import React from 'react'
 import './Footer.css'
-// import github from '../images/github.svg'
-// import email from '../images/email.svg'
-// import linkedin from '../images/linkedin.svg'
-// import phone from '../images/phone.svg'
 
+//link icon to github, email, linkedin, phone
 function Footer() {
 return (
     <div className='footer'>

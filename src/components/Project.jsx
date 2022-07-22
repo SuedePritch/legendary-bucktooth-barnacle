@@ -6,6 +6,8 @@ import weatherPic from '../images/weather.png'
 import jediArchivesPic from '../images/jedi.gif'
 import codeQuizPic from '../images/codeQuiz.png'
 import passwordGeneratorPic from '../images/passwordGenerator.png'
+
+//project data is used internally but could be moved into a database or fetched using github API
 const projectData = [
     {   
         id:1,
@@ -56,6 +58,9 @@ const projectData = [
         deployed:'https://suedepritch.github.io/psychic-lamp/'
     },
 ]
+
+//project component iterates over the project data to display all projects
+//uses a github and link svg to link to repo or deployed
 function Project() {
 return (
     <div>

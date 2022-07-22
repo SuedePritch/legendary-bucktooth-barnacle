@@ -2,6 +2,11 @@ import React from 'react'
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
 import './Contact.css'
+
+//contact form which uses regex(from utils/helpers) to validate email
+//if email is invalid or name is empty an error is displayed
+//if user clicks input field and doesnt type a 'required' alert is displayed when the user clicks away
+//also sets up name/email state but that doesnt do anything but prepare for future development
 function Contact() {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');

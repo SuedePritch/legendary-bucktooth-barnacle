@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 
+//Nav bar changes the page state so that it can be conditionally rendered in content component
+//sets className to active if current page, this is a highlight animation to indicate which page we are on
 function Navbar(props) {
     return (
     <div className='navbar'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import profilePic from '../images/CartoonJames.JPG'
-
+//Profile picture and short bio
 function About() {
     return (
         <div className='about'>

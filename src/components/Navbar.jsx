@@ -18,11 +18,11 @@ function Navbar(props) {
                     onClick={() => props.state.setPage("Project")}>
                     Portfolio
                 </button>
-                <button
+                {/* <button
                     className={props.state.page === "Contact" ? 'active' : 'navlink'}
                     onClick={() => props.state.setPage("Contact")}>
                     Contact
-                </button>
+                </button> */}
                 <button
                     className={props.state.page === "Resume" ? 'active' : 'navlink'}
                     onClick={() => props.state.setPage("Resume")}>

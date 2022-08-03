@@ -1,16 +1,25 @@
 import React from 'react'
 import './Project.css'
+import stockerInventory from '../images/stockerInventory.png'
 import goldenDevPic from '../images/goldenDev.png'
 import employeeContactPic from '../images/employeeContact.png'
 import weatherPic from '../images/weather.png'
 import jediArchivesPic from '../images/jedi.gif'
 import codeQuizPic from '../images/codeQuiz.png'
-import passwordGeneratorPic from '../images/passwordGenerator.png'
+// import passwordGeneratorPic from '../images/passwordGenerator.png'
 
 //project data is used internally but could be moved into a database or fetched using github API
 const projectData = [
     {   
         id:1,
+        title: 'Stocker',
+        image: stockerInventory,
+        description: 'An inventory management system that integrates with a fully functional eCommerce site. Once product details are inserted into the database the inventory is updated with every sale and with every shipment received. This app is a collaborative project and I was the Lead Dev focused on Apollo, GraphQL frontend, Custom CSS, and touched everything in between',
+        repo: 'https://github.com/SuedePritch/furry-leftover-broccoli',
+        deployed:'https://stockerinventory.herokuapp.com/'
+    },
+    {   
+        id:2,
         title: 'GoldenDevs',
         image: goldenDevPic,
         description: 'This project is for freelance developers and clients to connect. It utilizes a SQL database using the Sequelize ORM, express-sessions and bcrypt for user authentication, a NodeJS/Express server, and Handlebars for the templating engine. ThreeJS was also used to create a 3D animated landing page. This was a collaborative project. I was responsible for building the API, landing page and logo design, UI/UX, authentication and the database tables referencing the tech icons.',
@@ -18,7 +27,7 @@ const projectData = [
         deployed:'https://protected-peak-08029.herokuapp.com/'
     },
     {
-        id:2,
+        id:3,
         title: 'Jedi Archives',
         image: jediArchivesPic,
         description: 'This project uses a third-party Star Wars API and provides the UI for research on the Star Wars universe. It utilizes JavaScript/jQuery, Tailwinds CSS, Star Wars API, and the Wikipedia API. This was a collaborative project in that I was responsible for integrating the APIs, and the landing page design.',
@@ -26,7 +35,7 @@ const projectData = [
         deployed:'https://suedepritch.github.io/crispy-spork/'
     },
     {
-        id:3,
+        id:4,
         title: 'Employee Contact Tracker',
         image: employeeContactPic,
         description: 'CLI CMS that creates an html page',
@@ -34,7 +43,7 @@ const projectData = [
         deployed:'https://github.com/SuedePritch/scaling-journey'
     },
     {
-        id:4,
+        id:5,
         title: 'Weather App',
         image: weatherPic,
         description: 'Frontend for third party API',
@@ -42,21 +51,21 @@ const projectData = [
         deployed:'https://suedepritch.github.io/sunshine-rainbows/'
     },
     {
-        id:5,
+        id:6,
         title: 'Code Quiz',
         image: codeQuizPic,
         description: 'Technical Code Quiz',
         repo: 'https://github.com/SuedePritch/urban-invention',
         deployed:'https://suedepritch.github.io/urban-invention/'
     },
-    {
-        id:6,
-        title: 'Password Generator',
-        image: passwordGeneratorPic,
-        description: 'Generates Secure Passwords',
-        repo: 'https://github.com/SuedePritch/psychic-lamp',
-        deployed:'https://suedepritch.github.io/psychic-lamp/'
-    },
+    // {
+    //     id:7,
+    //     title: 'Password Generator',
+    //     image: passwordGeneratorPic,
+    //     description: 'Generates Secure Passwords',
+    //     repo: 'https://github.com/SuedePritch/psychic-lamp',
+    //     deployed:'https://suedepritch.github.io/psychic-lamp/'
+    // },
 ]
 
 //project component iterates over the project data to display all projects

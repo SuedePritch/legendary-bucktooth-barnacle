@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/legendary-bucktooth-barnacle/static/css/main.13fd2efc.css",
-    "main.js": "/legendary-bucktooth-barnacle/static/js/main.f808ccb9.js",
+    "main.js": "/legendary-bucktooth-barnacle/static/js/main.24aeb614.js",
     "static/js/787.f37d5abd.chunk.js": "/legendary-bucktooth-barnacle/static/js/787.f37d5abd.chunk.js",
     "static/media/goldenDev.png": "/legendary-bucktooth-barnacle/static/media/goldenDev.44d54806fb5debc2acf7.png",
     "static/media/stockerInventory.png": "/legendary-bucktooth-barnacle/static/media/stockerInventory.d1f687f8f126bca0d274.png",
@@ -12,11 +12,11 @@
     "static/media/employeeContact.png": "/legendary-bucktooth-barnacle/static/media/employeeContact.9f4569a082f74147844b.png",
     "index.html": "/legendary-bucktooth-barnacle/index.html",
     "main.13fd2efc.css.map": "/legendary-bucktooth-barnacle/static/css/main.13fd2efc.css.map",
-    "main.f808ccb9.js.map": "/legendary-bucktooth-barnacle/static/js/main.f808ccb9.js.map",
+    "main.24aeb614.js.map": "/legendary-bucktooth-barnacle/static/js/main.24aeb614.js.map",
     "787.f37d5abd.chunk.js.map": "/legendary-bucktooth-barnacle/static/js/787.f37d5abd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13fd2efc.css",
-    "static/js/main.f808ccb9.js"
+    "static/js/main.24aeb614.js"
   ]
 }

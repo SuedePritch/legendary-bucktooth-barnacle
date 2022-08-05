@@ -6,11 +6,12 @@ function Resume() {
     return (
         <div className='resume-container'>
             <button className="download">
-                    <a href="./pritchard_resume.docx" alt="Resume" download>Download Resume</a>
+                    <a href="./JamesPritchardResume.pdf" alt="Resume" download>Download Resume</a>
                 </button>
 <h1>James Pritchard</h1>
 Phone: 1-250-617-0245 <br />
-Thunder Bay, Ontario, Canada
+Thunder Bay, Ontario, Canada<br />
+<a href="mailto:james.edward.pritchard@gmail.com">james.edward.pritchard@gmail.com</a>
 
 <h2>Summary</h2>
 I am a full-stack developer with a certificate from the University of Toronto full-stack development program. I specialize in the MERN stack, and I also have extensive knowledge of blockchain and web3 technologies. I pride myself on producing clean, readable, well-commented code while always improving my technical skills. I am intensely curious about technology and am eager to learn and implement cutting-edge and legacy technologies.
@@ -44,9 +45,10 @@ Fanshawe College Machinist Apprenticeship
     2019-2021
 </h3>
 <ul>
-    <li>Maintained Shaw’s internet and cable infrastructure to ensure a positive client experience.</li>
+    <li>Maintained Shaw’s internet and cable infrastructure to ensure a positive client experience.   	
+    </li>
     <li>Installed services to business and residential customers including cable, internet, phone, and security systems.</li>
-    <li>Participated in a significant upgrade to local infrastructure that increased local systems from 750/860Mhz to 1.5 GHz allowing Orthogonal Frequency Division Multiplexing.</li>
+    <li>Facilitated significant upgrades to local infrastructure that increased local systems from 750/860Mhz to 1.5 GHz allowing Orthogonal Frequency Division Multiplexing.</li>
 </ul>
 <h3>
     Spectrum Resource Group Inc & Windfirm & Zanzibar & Reclaimit <br />
@@ -54,10 +56,10 @@ Fanshawe College Machinist Apprenticeship
     2009-2018
 </h3>
 <ul>
-    <li>Ensured quality to the standards set by the Ministry of Forests, Lands, Natural Resources</li>
+    <li>Navigated quality standards set by the Ministry of Forests, Lands, Natural Resources.</li>
     <li>Trained workers in the field while providing information on ever-changing safety guidelines and precautions, such as wildlife or dangerous trees.</li>
-    <li>Liable for employee safety as the primary first aid attendant.</li>
-    <li>Responsible for ensuring projects were completed on time and within budget.</li>
+    <li>Acted as primary Occupational First Aid Level 3 attendant establishing care for remote worksites with large workforces.</li>
+    <li>Managed scheduled projects ensuring strict compliance with all applicable deadlines and budgets. </li>
 </ul>
     </div>
     )

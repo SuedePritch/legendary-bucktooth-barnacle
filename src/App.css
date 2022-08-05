@@ -5,6 +5,7 @@
   --clr-primary-700:hsl(271, 90%, 70%);
   --clr-font-500:hsl(0,0%,92%)
 }
+
 *,
 *::before,
 *::after{
@@ -16,7 +17,9 @@
   overflow-x: hidden;
   
 }
-
+#email-link{
+  color: black;
+}
 svg{
   margin:0 1rem;
   padding:0.75rem;

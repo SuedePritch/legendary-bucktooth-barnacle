@@ -47,7 +47,7 @@
     width: 45vw;
 }
 
-@media screen and (max-width:1260px) {
+@media screen and (max-width:1420px) {
     .projects{
         justify-content: center;
     }

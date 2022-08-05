@@ -11,10 +11,10 @@ function Resume() {
 <h1>James Pritchard</h1>
 Phone: 1-250-617-0245 <br />
 Thunder Bay, Ontario, Canada<br />
-<a href="mailto:james.edward.pritchard@gmail.com">james.edward.pritchard@gmail.com</a>
+<a href="mailto:james.edward.pritchard@gmail.com" id="email-link">james.edward.pritchard@gmail.com</a>
 
 <h2>Summary</h2>
-I am a full-stack developer with a certificate from the University of Toronto full-stack development program. I specialize in the MERN stack, and I also have extensive knowledge of blockchain and web3 technologies. I pride myself on producing clean, readable, well-commented code while always improving my technical skills. I am intensely curious about technology and am eager to learn and implement cutting-edge and legacy technologies.
+Full-stack developer with a certificate from the University of Toronto full-stack development program. Specializing in the MERN stack with extensive knowledge of blockchain and web3 technologies. Excel at producing clean, readable, well-commented code while consistently striving to improve technical skills. Intensely curious about technology and eager to implement cutting-edge and legacy technologies.
 
 <h2>Technical Skills</h2>
 <ul>

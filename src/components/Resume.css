@@ -7,15 +7,35 @@
     max-width: 80ch;
     margin-bottom:8rem;
 }
+a{
+    color: black;
+}
+h1,
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin-top: 0.5rem;
+}
 .resume-container h1{
     margin-top:2rem;
 }
 .resume-container h2{
-    margin-top:2rem;
+    margin-top:1rem;
 }
 .resume-container h3{
-    margin-top:2rem;
+    margin-top:1rem;
 }
+
+.tech-skill-list{
+    text-align: center;
+}
+
+
+
+
+
 .download{
     margin-top:1rem;
     border: 3px solid black;

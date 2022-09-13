@@ -57,6 +57,7 @@
     }
     .project-description{
         width:85vw;
+        word-break: keep-all;
     }
     .projects svg{
         margin:2rem 1rem;
@@ -72,4 +73,18 @@
         width:85vw;
     }
     
+}
+
+@media screen and (max-width:520px) {
+    .project{
+        padding:0.5rem;
+        margin:0.5rem;
+    }
+    .project-description{
+        width:fit-content;
+        word-break: keep-all;
+    }
+    .bg-image{
+        width:90vw;
+    }
 }

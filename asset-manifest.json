@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/legendary-bucktooth-barnacle/static/css/main.ec43d048.css",
+    "main.css": "/legendary-bucktooth-barnacle/static/css/main.a45678d4.css",
     "main.js": "/legendary-bucktooth-barnacle/static/js/main.0b3d2114.js",
     "static/js/787.f37d5abd.chunk.js": "/legendary-bucktooth-barnacle/static/js/787.f37d5abd.chunk.js",
     "static/media/goldenDev.png": "/legendary-bucktooth-barnacle/static/media/goldenDev.44d54806fb5debc2acf7.png",
@@ -12,12 +12,12 @@
     "static/media/employeeContact.png": "/legendary-bucktooth-barnacle/static/media/employeeContact.9f4569a082f74147844b.png",
     "static/media/JamesPritchardResume.pdf": "/legendary-bucktooth-barnacle/static/media/JamesPritchardResume.40f1ea47e0a30dc77847.pdf",
     "index.html": "/legendary-bucktooth-barnacle/index.html",
-    "main.ec43d048.css.map": "/legendary-bucktooth-barnacle/static/css/main.ec43d048.css.map",
+    "main.a45678d4.css.map": "/legendary-bucktooth-barnacle/static/css/main.a45678d4.css.map",
     "main.0b3d2114.js.map": "/legendary-bucktooth-barnacle/static/js/main.0b3d2114.js.map",
     "787.f37d5abd.chunk.js.map": "/legendary-bucktooth-barnacle/static/js/787.f37d5abd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec43d048.css",
+    "static/css/main.a45678d4.css",
     "static/js/main.0b3d2114.js"
   ]
 }

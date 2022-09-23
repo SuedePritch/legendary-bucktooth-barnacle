@@ -79,12 +79,16 @@
 }
 
 @media screen and (max-width:520px) {
+    .projects{
+        padding-bottom: 6rem;
+    }
     .project{
         padding:0.5rem;
         margin:0.5rem;
     }
     .project-title{
-        font-size: 1.4em;
+        font-size: 1.3em;
+        max-width:16ch;
     }
     .projects svg{
         margin:0.5rem;
@@ -92,7 +96,7 @@
     
     .project-description{
         width:fit-content;
-        font-size: 0.6em;
+        font-size: 0.75em;
         word-break: keep-all;
     }
     .bg-image{

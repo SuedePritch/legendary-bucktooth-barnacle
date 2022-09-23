@@ -12,9 +12,9 @@ import codeQuizPic from '../images/codeQuiz.png'
 const projectData = [
     {   
         id:1,
-        title: 'Stocker',
+        title: 'Stocker Inventory',
         image: stockerInventory,
-        description: 'An inventory management system that integrates with a fully functional eCommerce site. Once product details are inserted into the database the inventory is updated with every sale and with every shipment received. This app is a collaborative project and I was the Lead Dev focused on Apollo, GraphQL frontend, Custom CSS, and touched everything in between',
+        description: 'An inventory management system that integrates with a fully functional eCommerce site. Once product details are inserted into the database the inventory is updated with every sale and with every shipment received. This app is a collaborative project and I was the Lead Dev focused on Apollo, GraphQL frontend, Custom CSS, and touched everything in between. Please use Username: james@email.com Password: password to access admin features.',
         repo: 'https://github.com/SuedePritch/furry-leftover-broccoli',
         deployed:'https://stockerinventory.herokuapp.com/'
     },
@@ -38,7 +38,7 @@ const projectData = [
         id:4,
         title: 'Employee Contact Tracker',
         image: employeeContactPic,
-        description: 'CLI CMS that creates an html page',
+        description: 'CLI CMS that creates an html page. Node, Jest, Inquirer. This project is command line and as such is not deployed. This project is shown here to illustrate design and Node skills. ',
         repo: 'https://github.com/SuedePritch/scaling-journey',
         deployed:'https://github.com/SuedePritch/scaling-journey'
     },
@@ -46,7 +46,7 @@ const projectData = [
         id:5,
         title: 'Weather App',
         image: weatherPic,
-        description: 'Frontend for third party API',
+        description: 'Frontend for third party API. This project uses vanilla javascript and focuses on dynamically generating DOM elements using third party data',
         repo: 'https://github.com/SuedePritch/sunshine-rainbows',
         deployed:'https://suedepritch.github.io/sunshine-rainbows/'
     },
@@ -54,7 +54,7 @@ const projectData = [
         id:6,
         title: 'Code Quiz',
         image: codeQuizPic,
-        description: 'Technical Code Quiz',
+        description: 'Technical Code Quiz. This project uses vanilla javascript and focuses on DOM manipuliation',
         repo: 'https://github.com/SuedePritch/urban-invention',
         deployed:'https://suedepritch.github.io/urban-invention/'
     },
